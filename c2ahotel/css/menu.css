@@ -1,0 +1,55 @@
+body{
+		background-image:url('../picture_library/background.jpg');
+		background-size: 100% 150%;
+		background-repeat:no-repeat;
+		color: Black;
+		font-family: Arial,Verdana;
+		font-size: 14px;
+	}
+h2	{
+		text-align:center; 
+		font-family:Arial,Verdana,sans-serif; 
+		text-decoration:underline;
+		font-size:25pt; 
+		font-weight:normal;
+	}
+#wrapper{
+		background: #CCCCB2;
+		margin: 100px auto;
+		width: 670px;
+		height: 500px;
+		padding: 5px;
+		}
+
+#quit{position:absolute; left:45%; top:60%;}
+	
+#navMenu ul	{list-style: none;}		
+	
+#navMenu ul li	{float:left; padding-right:1px; position:relative; text-decoration:bold;}	
+
+
+#navMenu ul a	{
+			display:table-cell; vertical-align:middle; width:120px; height:50px; text-align:center; background: #3D3F40;
+			color: #FFF; text-decoration:none;
+			}										
+#navMenu ul a:hover	{background:#818485;}
+
+#navMenu li>ul	{display: none; position:absolute; left:0; top:100%;}
+					
+#navMenu li:hover>ul	{display:block;}
+				
+#navMenu li>ul li	{padding:0; padding-top:1px; width:120px;}
+
+#navMenu li>ul li>ul	{left:100%; top:0; padding-left:1px; width:120px;}
+
+#navMenu li>ul li>ul li {width:100px;}
+
+#navMenu li:hover>a	{background:#818485;}
+
+label{
+		float: left;
+		display: block;
+		height: 25px;
+		width: 150px;
+		}
+
